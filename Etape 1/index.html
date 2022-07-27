@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Morpion</title>
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div id="container_center">
+        <div id="game">
+            <div onclick="game(this)" class="cell"></div>
+            <div onclick="game(this)" class="cell"></div>
+            <div onclick="game(this)" class="cell"></div>
+            <div onclick="game(this)" class="cell"></div>
+            <div onclick="game(this)" class="cell"></div>
+            <div onclick="game(this)" class="cell"></div>
+            <div onclick="game(this)" class="cell"></div>
+            <div onclick="game(this)" class="cell"></div>
+            <div onclick="game(this)" class="cell"></div>
+        </div>
+    </div>
+    <div id="victory"></div>
+    <button id="restart" class="button_style" onclick="reset()">restart</button>
+    <div id="blank"></div>
+    <button id="change" class="button_style" onclick="activeCpuMode()">Changer de mode de jeux</button>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
