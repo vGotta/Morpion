@@ -95,3 +95,25 @@ body {
 #blank {
     margin: 30px;
 }
+
+@media screen and (max-width : 535px ) {
+
+h1 {
+    font-size: 20px;
+}
+
+#change {
+font-size: 10px;
+}
+
+#restart {
+    font-size: 10px;
+}
+
+.cell{
+    height: 50px;
+    width: 50px; 
+    font-size: 37.5px;   
+}
+
+}
